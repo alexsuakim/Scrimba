@@ -1,0 +1,85 @@
+@font-face { font-family: Cursed-Timer-ULiL; src: url('CursedTimerUlil-Aznm.ttf'); } 
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.restart-btn{
+    margin: 10px;
+}
+
+#home-text{
+    color: white;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 15px;
+}
+
+#guest-text{
+    color: white;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 15px;
+}
+
+#homeScore{
+    width: 150px;
+    height: 120px;
+    top: 125px;
+    left: 100px;
+    background: black;
+    color: #F94F6D;
+    font-family: Cursed-Timer-ULiL;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 127px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 15px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+#guestScore{
+    width: 150px;
+    height: 120px;
+    top: 125px;
+    left: 100px;
+    background: black;
+    color: #F94F6D;
+    font-family: Cursed-Timer-ULiL;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 127px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 15px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.scoreButton{
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    margin: 0 0 30px 0;
+    border-radius: 5px;
+}
+
+#restart-btn{
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    color: white;
+    border-radius: 5px;
+}
